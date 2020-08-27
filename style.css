@@ -1,0 +1,29 @@
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+</style>
+
+#Vis,
+#contact-info,
+#vis-image {
+  float: left;
+}
+
+#figure {
+  position: relative;
+}
+
+#Vis Header {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#Vis {
+  width: 70%;
+}
