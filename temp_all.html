@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Homework 11</title>
+    <title>Visualization 1</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
- <!-- this navbar appears above each page -->
+
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="index.html">Homework 11</a>
@@ -44,64 +45,61 @@
         </div>
     </nav>
   </div>
-
-  <!-- nesting rows to allow for visualizations in the side bar -->
+  
+  <h2 id="Vis Header" style="text-align: center">Vis 1</h2>
   <div class="row">
     <div class="col-md-2"></div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="container-fluid">
-        <br>
-        <div class="row text-center">
-          <h1>Weather Visualization Project</h1>
-        </div>
-        <div class="row">
-          This project examines the relationship between latitude and several weather characteristics: temperature, wind speed, cloud cover, and humidity. By generating data for 555 cities using the OpenWeather API, I was able to create these visualizations that indicate whether there is a relationshp between latitude and each of these weather characteristics.
-        </div>
-        <br>
-        <div class="row">
-          Visualizations include temperature for the whole world, and broken down in both the northern and southern hemispheres. Each of the other weather characteristics are also broken down by hemisphere, for a total of 9 visualizations.
-        </div>
+        <img id="vis-image" src="visualizations/vis1.png" alt="Vis 1">
       </div>
     </div>
-    <div class= "col-md-4 text-center">
-      <h3>Visualizations</h3>
-      <ul>
-        <a href="temp_all.html">
-          <img alt="temp_all" src="visualizations/Temp_vs_Lat_All.png" width=150>
-        </a>
-        <a href="temp_north.html">
-          <img alt="Vis 1" src="visualizations/Temp_vs_Lat_North.png" width=150>
-        </a>
-        <a href="temp_south.html">
-          <img alt="Vis 3" src="visualizations/Temp_vs_Lat_South.png" width=150>
-        </a>
-        <a href="cloud_north.html">
-          <img alt="Vis 4" src="visualizations/Cloud_vs_Lat_North.png" width=150>
-        </a>
-        <a href="cloud_south.html">
-          <img alt="temp_all" src="visualizations/Cloud_vs_Lat_South.png" width=150>
-        </a>
-        <a href="humid_north.html">
-          <img alt="Vis 1" src="visualizations/Humid_vs_Lat_North.png" width=150>
-        </a>
-        <a href="humid_south.html">
-          <img alt="Vis 3" src="visualizations/Humid_vs_Lat_South.png" width=150>
-        </a>
-        <a href="wind_north.html">
-          <img alt="Vis 4" src="visualizations/Wind_vs_Lat_North.png" width=150>
-        </a>
-        <a href="wind_south.html">
-          <img alt="Vis 4" src="visualizations/Wind_vs_Lat_South.png" width=150>
-        </a>
-      </ul>
+    <div class="col-md-6">
+      <div class="container-fluid">
+        <p>Hodor? Hodor hodor HODOR! Hodor. HODOR HODOR! Hodor hodor. Hodor hodor.</p>
+      </div>
     </div>
   </div>
 
+    <!-- images for quick links -->
+    <div class="footer">
+      <div class="col-md-12">
+          <h3>Visualizations</h3>
+          <ul>
+            <a href="temp_all.html">
+              <img alt="temp_all" src="visualizations/Temp_vs_Lat_All.png" width=150>
+            </a>
+            <a href="temp_north.html">
+              <img alt="temp_north" src="visualizations/Temp_vs_Lat_North.png" width=150>
+            </a>
+            <a href="temp_south.html">
+              <img alt="temp_south" src="visualizations/Temp_vs_Lat_South.png" width=150>
+            </a>
+            <a href="cloud_north.html">
+              <img alt="cloud_north" src="visualizations/Cloud_vs_Lat_North.png" width=150>
+            </a>
+            <a href="cloud_south.html">
+              <img alt="cloud_south" src="visualizations/Cloud_vs_Lat_South.png" width=150>
+            </a>
+            <a href="humid_north.html">
+              <img alt="humid_north" src="visualizations/Humid_vs_Lat_North.png" width=150>
+            </a>
+            <a href="humid_south.html">
+              <img alt="humid_south" src="visualizations/Humid_vs_Lat_South.png" width=150>
+            </a>
+            <a href="wind_north.html">
+              <img alt="wind_north" src="visualizations/Wind_vs_Lat_North.png" width=150>
+            </a>
+            <a href="wind_south.html">
+              <img alt="wind_south" src="visualizations/Wind_vs_Lat_South.png" width=150>
+            </a>
+          </ul>
+      </div>
+    </div>
 
-    
-      
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      
+
+
 </body>
